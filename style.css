@@ -149,6 +149,7 @@ html{
     display: flex;
     padding: 24px;
     position: relative;
+    align-items: center;
 }
 
 
@@ -169,7 +170,7 @@ html{
     min-width: 35%;
     width: 35%;
     height: auto;
-    object-fit: cover
+    object-fit: cover;
 }
 
 .smallarticles_text h3{
@@ -193,4 +194,44 @@ html{
 
 .smallarticles_text p span:hover{
     color:black;
+}
+
+.section_three{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaebec;
+}
+
+.section_three_title{
+    margin: 32px 0;
+
+
+}
+
+.section_three_resumes{
+    width: 100%;
+    padding: 0 72px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section_three_resumes_individual{
+    background-color: white;
+    margin: 1rem;
+    width: 30%;
+
+}
+
+.section_three_resumes_individual img{
+    width: 100%;
+}
+
+.section_three_texts{
+    margin: 16px;
+}
+
+.section_three_courses{
+    margin: 8px 0;
 }
