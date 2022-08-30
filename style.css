@@ -166,6 +166,10 @@ html{
     align-items: center;
 }
 
+.smallarticles:hover{
+    background-color: #eaebec
+}
+
 
 .smallarticles_text{
     display: flex;
@@ -358,6 +362,11 @@ footer div {
 }
 
 @media only screen and (min-width: 850px){
+
+    .mobile_header_menu_link{
+        display: none;
+    }
+
     .mobile_header_menu_list{
         display: none;
     }
@@ -441,6 +450,11 @@ footer div {
         background-color: #d8d8d8;
         width: 100%;
         margin: 0 0 0.50rem 0;
+    }
+
+    .section_three_resumes_individual:hover{
+        background-color: #4a4a4a;
+        color: #d8d8d8;
     }
 
     .section_three_resumes_individual img{
