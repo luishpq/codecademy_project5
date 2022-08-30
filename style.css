@@ -455,5 +455,30 @@ footer div {
         margin: 16px;
     }
 
+    .section_four_list{
+        display: none;
+    }
+
+    .section_four{
+        border-bottom: 0px;
+    }
+
+    .section_four_video{
+        width: 100%;
+        margin: 0;
+    }
+
+    .section_four_video_text{
+        display: none;
+    }
+
+    footer{
+        background-color: white;
+    }
+
+    footer div{
+        display: none;
+    }
+
 
 }
